@@ -15,7 +15,7 @@ Links:
 
 Para isso, clique em "Criar recurso" e depois pesquise por Azure Machine Learning no marketplace. Após encontrar o recurso, crie ele.
 
-![Img](./imgs/img1.gif)
+![Img](./img/img1.gif)
 
 2 - Configurar o recurso do Azure Machine Learning
 
@@ -23,21 +23,21 @@ Na aba de Noções básica, Detalhes do recurso, informe a assinatura para cobra
 
 Após, em Detalhes da área de trabalho, informe os detalhes do workspace que será criado. Por fim, crie o recurso clicando em **Consultar + criar**. Após a validação ser aprovada, cliquei em "Criar".
 
-![Img](./imgs/img2.png)
+![Img](./img/img2.png)
 
 Após o recurso ser criado, clicar no botão "Ir para o recurso" para acessar a página do recurso.
 
-![Img](./imgs/img3.png)
+![Img](./img/img3.png)
 
 Nessa página, existe o botão "Iniciar o estúdio" que redirecionará para o estúdio do Azure Machine Learning.
 
-![Img](./imgs/img4.png)
+![Img](./img/img4.png)
 
 3 - Criando o modelo
 
 No estúdio, na página do workspace criado anteriormente, acessar a opção do menu ML automatizado e na página aberto, cliquei em "Novo trabalho de ML automatizado".
 
-![Img](./imgs/img5.gif)
+![Img](./img/img5.gif)
 
 Em "Configurações básicas", preencher os campos "Nome do trabalho", "Novo nome do experimento" e "Descrição". Após clique em "Avançar".
 
@@ -46,29 +46,29 @@ No passo "Tipo de tarefa e dados", selecionar o tipo de tarefa como **Regressão
 No passo "URL da Web", informar a URL [https://aka.ms/bike-rentals](https://aka.ms/bike-rentals) do conjunto de dados. 
 Observação:  o link não está funcional, por isso, use essa URL: [https://raw.githubusercontent.com/MicrosoftLearning/mslearn-ai-fundamentals/main/data/ml/daily-bike-share.csv](https://raw.githubusercontent.com/MicrosoftLearning/mslearn-ai-fundamentals/main/data/ml/daily-bike-share.csv). No passo "Configurações", preenchar as configurações do conjunto e após avançar para "Esquema", verifique os tipos de dados. Finalmente, ao avançar, verifique as configurações criadas para o ativo de dados e clique em criar.
 
-![Img](./imgs/img6.gif)
+![Img](./img/img6.gif)
 
 Em "Configurações de tarefas", escolha o conjunto de dados importado. Após, em "Coluna de destino" escolha a coluna rentals como target.
 
 Nos campos de "Limite", preencha com os valores abaixo e marque **"Habilitar encerramento antecipado"**.
 
-![Img](./imgs/img7.png)
+![Img](./img/img7.png)
 
 Em "Validar e testar", em "Tipo de validação" escolha **"Divisão de validação de treinamento"**.
 
 Ao avançar, em Computação, mantenha os valores mostrados na imagem abaixo.
 
-![Img](./imgs/img8.png)
+![Img](./img/img8.png)
 
 Após avançar e examinar as configurações do trabalho, clique em **"Enviar trabalho de treinamento"**.
 
 Após finalizar o trabalho de treinamento, crie o modelo. Para isso, acesse a página do trabalho realizado e cliquei em "Modelo de registro". Deixe as opções padrões para "Selecionar saída". Em "Configurações do modelo", somente preencha o nome e a versão. Após isso, clique em criar o modelo.
 
-![Img](./imgs/img12.gif)
+![Img](./img/img12.gif)
 
 Por fim, o modelo fica acessível na opção de menu "Modelo".
 
-![Img](./imgs/img9.png)
+![Img](./img/img9.png)
 
 4 - Métricas do modelo
 
@@ -76,12 +76,12 @@ Para acessar as métricas do modelo treinado, na página do modelo, acesse o lin
 
 Na página da tarefa, acesse a aba métricas.
 
-![Img](./imgs/img10.gif)
+![Img](./img/img10.gif)
 
 5 - Teste do modelo
 Na página do modelo, acesse a aba "Pontos de extremidade" e em seguida clique em "Implantar". Em seguida marque o modelo e deixe todos os campos seguintes como os valores padrões, exceto "Contagem de instâncias" que deixe como 1. Então clique em "Implantar".
 
-![Img](./imgs/img13.gif)
+![Img](./img/img13.gif)
 
 Logo após a implantação, acesse a aba "Testar" do ponto de extremidade criado para o meu modelo.
 
