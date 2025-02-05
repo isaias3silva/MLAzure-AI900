@@ -112,5 +112,5 @@ Para o teste, utilize o json abaixo:
 
 A previsão gerada foi: 361.95
 
-![Img](./imgs/img11.png)
+![Img](./img/img11.png)
 
